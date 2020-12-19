@@ -1,0 +1,76 @@
+.container {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: gray;
+    padding-top: 20px;
+    text-align: center
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.custom-row {
+    padding-top: 10px;
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 91%;
+    height: 180px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(33, 33, 33, .2);
+}
+
+.custom-img img {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+h4,
+p {
+    color: gray;
+    padding-left: 5px;
+    float: left;
+    font-size: 18px;
+}
+
+.weatherDataAPI {
+    padding: 10px 0px 10px 15px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        border: unset;
+    }
+    .box {
+        width: 65%;
+        height: 180px;
+        padding: 10px;
+        margin-bottom: 7px;
+    }
+    .custom-img img {
+        width: 68%;
+        margin-left: 19px;
+    }
+    h4,
+    p {
+        font-size: 20px;
+    }
+}
